@@ -22,6 +22,7 @@ const IndexPage: React.FC = () => (
     <div className={css.page}>
       <h1>moonbow.ink</h1>
       <h4>NFTs/tattoos/engineering</h4>
+      <div style={{ height: 100 }}></div>
       will be soon...
     </div>
   </div>
