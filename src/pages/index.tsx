@@ -3,6 +3,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import { Seo } from "../components/seo";
 import "./index.css";
 import * as css from "./index.module.css";
+import { Links } from "../components/Links";
 
 const IndexPage: React.FC = () => (
   <div>
@@ -23,7 +24,7 @@ const IndexPage: React.FC = () => (
       <h1>moonbow.ink</h1>
       <h4>NFTs/tattoos/engineering</h4>
       <div style={{ height: 100 }}></div>
-      will be soon...
+      <Links />
     </div>
   </div>
 );

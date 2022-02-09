@@ -12,6 +12,12 @@
 
 @font-face {
   font-family: "Poppins";
+  src: url("../assets/Poppins/Poppins-ExtraLight.ttf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Poppins";
   src: url("../assets/Poppins/Poppins-Medium.ttf");
   font-weight: 500;
 }
