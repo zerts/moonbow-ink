@@ -1,8 +1,8 @@
 import React from "react";
-import InstagramIcon from "../assets/instagram.svg";
-import TwitterIcon from "../assets/twitter.svg";
-import OpenseaIcon from "../assets/opensea.svg";
-import FoundationIcon from "../assets/foundation.svg";
+import InstagramIcon from "../../assets/instagram.svg";
+import TwitterIcon from "../../assets/twitter.svg";
+import OpenseaIcon from "../../assets/opensea.svg";
+import FoundationIcon from "../../assets/foundation.svg";
 import * as css from "./Links.module.css";
 
 const Link: React.FC<{ href: string; icon: JSX.Element; title: string }> = ({

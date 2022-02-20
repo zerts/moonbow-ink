@@ -4,6 +4,7 @@ import { Seo } from "../components/seo";
 import "./index.css";
 import * as css from "./index.module.css";
 import { Links } from "../components/Links";
+import { NftList } from "../components/NftList";
 
 const IndexPage: React.FC = () => (
   <div>
@@ -13,9 +14,8 @@ const IndexPage: React.FC = () => (
       quality={95}
       formats={["auto", "webp", "avif"]}
       alt="Header background"
-      style={{
+      imgStyle={{
         width: "100%",
-        height: "25vh",
         objectFit: "cover",
         objectPosition: "center",
       }}
@@ -25,6 +25,9 @@ const IndexPage: React.FC = () => (
       <h4>NFTs/tattoos/engineering</h4>
       <div style={{ height: 100 }}></div>
       <Links />
+      <div style={{ height: 100 }}></div>
+      <NftList />
+      <div style={{ height: 100 }}></div>
     </div>
   </div>
 );
