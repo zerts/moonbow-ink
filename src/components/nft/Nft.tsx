@@ -1,5 +1,4 @@
 import React from "react";
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import * as css from "./Nft.module.css";
 
 export interface NftProps {

@@ -1,6 +1,6 @@
 import { graphql } from "gatsby";
 import React from "react";
-import { NftProps, Nft } from "../nft/nft";
+import { NftProps, Nft } from "../nft";
 import * as css from "./NftList.module.css";
 
 const nfts: NftProps[] = [
