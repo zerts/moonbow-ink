@@ -1,1 +1,1 @@
-export { Nft } from "./Nft";
+export { Nft, NftProps } from "./Nft";
